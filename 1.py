@@ -1,3 +1,7 @@
-print("啊吧啊吧")
-print("曼波")
-print("哈基米南北绿豆")
+class Solution:
+    def twoSum(self, nums: List[int], target: int) -> List[int]:
+        for i in range(len(nums) - 1):
+            temp = target - nums[i]
+            for j in range(len(nums) - 1 - i):
+                if nums[j + i + 1] == temp:
+                    return [i,j + i + 1]
