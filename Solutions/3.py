@@ -1,3 +1,14 @@
+"""
+LeetCode 3. Longest Substring Without Repeating Characters
+Difficulty: Medium
+Category: Strings
+
+Approach:
+- Double Loops
+- Time: O(n ^ 2)
+- Space: O(n)
+"""
+
 class Solution:
     def lengthOfLongestSubstring(self, s: str) -> int:
         longest = 1
