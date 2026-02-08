@@ -1,3 +1,14 @@
+"""
+LeetCode 14. Longest Common Prefix
+Difficulty: Easy
+Category: Strings
+
+Approach:
+- Strings to lists of characters. Loop stops when characters dismatch
+- Time: O(n * m)
+- Space: O(n * m)
+"""
+
 class Solution:
     def longestCommonPrefix(self, strs: List[str]) -> str:
         words = []
