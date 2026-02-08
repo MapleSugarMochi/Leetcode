@@ -1,3 +1,14 @@
+"""
+LeetCode 8. String to Integer (atoi)
+Difficulty: Medium
+Category: Strings
+
+Approach:
+- String to list, and simple operations
+- Time: O(n)
+- Space: O(n)
+"""
+
 class Solution:
     def myAtoi(self, s: str) -> int:
         s = s.strip()

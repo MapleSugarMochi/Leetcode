@@ -1,3 +1,14 @@
+"""
+LeetCode 9. Palindrome Number
+Difficulty: Easy
+Category: Arrays
+
+Approach:
+- String to list, and simple operations
+- Time: O(logn)
+- Space: O(logn)
+"""
+
 class Solution:
     def isPalindrome(self, x: int) -> bool:
         if x < 0:
