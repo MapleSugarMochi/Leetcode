@@ -1,3 +1,15 @@
+"""
+LeetCode 6. Zigzag Conversion
+Difficulty: Medium
+Category: Arrays
+
+Approach:
+- Iterate row by row and pick characters in the zigzag pattern.
+- For middle rows, include the additional character that appears diagonally. Concatenate all characters to form the final converted string
+- Time: O(n)
+- Space: O(n)
+"""
+
 class Solution:
     def convert(self, s: str, numRows: int) -> str:
         if numRows == 1: return s

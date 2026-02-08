@@ -1,3 +1,14 @@
+"""
+LeetCode 7. Reverse Integer
+Difficulty: Medium
+Category: Math
+
+Approach:
+- Modulo and division
+- Time: O(logn)
+- Space: O(1)
+"""
+
 class Solution:
     def reverse(self, x: int) -> int:
         negative = (x < 0)
