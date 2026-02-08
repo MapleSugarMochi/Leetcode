@@ -1,7 +1,7 @@
 """
 LeetCode 1. Two Sum
 Difficulty: Easy
-Category: Array
+Category: Arrays
 
 Approach:
 - Double Loops

@@ -1,3 +1,16 @@
+"""
+LeetCode 20. Valid Parentheses
+Difficulty: Easy
+Category: Strings
+
+Approach:
+- Stack. Pop closing blackets
+- Time: O(n)
+- Space: O(n)
+"""
+
+
+
 class Solution:
     def isValid(self, s: str) -> bool:
         stack = []
