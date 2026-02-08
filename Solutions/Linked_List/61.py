@@ -1,3 +1,14 @@
+"""
+LeetCode 61. Rotate List
+Difficulty: Medium
+Category: Linked_Lis
+
+Approach:
+- (tail.next = head), and find the position to (temp.next = None)
+- Time: O(n)
+- Space: O(1)
+"""
+
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, val=0, next=None):
