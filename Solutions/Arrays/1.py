@@ -1,3 +1,14 @@
+"""
+LeetCode 1. Two Sum
+Difficulty: Easy
+Category: Array
+
+Approach:
+- Double Loops
+- Time: O(n ^ 2)
+- Space: O(1)
+"""
+
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
         for i in range(len(nums) - 1):
