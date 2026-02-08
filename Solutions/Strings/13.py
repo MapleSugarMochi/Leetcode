@@ -1,3 +1,14 @@
+"""
+LeetCode 13. Roman to Integer
+Difficulty: Easy
+Category: Strings
+
+Approach:
+- Loop
+- Time: O(n)
+- Space: O(n)
+"""
+
 class Solution:
     def romanToInt(self, s: str) -> int:
         ans = 0
