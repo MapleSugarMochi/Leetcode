@@ -1,3 +1,14 @@
+"""
+LeetCode 11. Container with Most Water
+Difficulty: Medium
+Category: Dynamic
+
+Approach:
+- Double pointers
+- Time: O(n)
+- Space: O(1)
+"""
+
 class Solution:
     def maxArea(self, height: List[int]) -> int:
         left = 0
