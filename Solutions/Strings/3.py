@@ -1,7 +1,7 @@
 """
 LeetCode 3. Longest Substring Without Repeating Characters
 Difficulty: Medium
-Category: String
+Category: Strings
 
 Approach:
 - Double Loops

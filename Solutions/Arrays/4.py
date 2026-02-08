@@ -1,3 +1,14 @@
+"""
+LeetCode 4. Median of Two Sorted Arrays
+Difficulty: Hard
+Category: Arrays
+
+Approach:
+- Binary search on the shorter array
+- Time: O(log(m + n))
+- Space: O(1)
+"""
+
 class Solution:
     def findMedianSortedArrays(self, nums1: List[int], nums2: List[int]) -> float:
         if len(nums1) > len(nums2): #分割较短的list
