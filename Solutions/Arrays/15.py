@@ -1,3 +1,14 @@
+"""
+LeetCode 15. 3Sum
+Difficulty: Medium
+Category: Arrays
+
+Approach:
+- Use 2 pointers to find triplets [currentNumber, p1, p2]. Skip duplicates to avoid repeated answers
+- Time: O(n ^ 2)
+- Space: O(1)
+"""
+
 class Solution:
     def threeSum(self, nums: List[int]) -> List[List[int]]:
         ans = []
